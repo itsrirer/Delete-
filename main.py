@@ -4,9 +4,9 @@ import asyncio
 import os
 
 API_ID = int(os.getenv("API_ID", "29544631"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-OWNER_ID = int(os.getenv("OWNER_ID", "0"))
+API_HASH = os.getenv("API_HASH", "e37dea5444dd48fd626d9a91fa13487b")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8595992416:AAHg7vmU9OlUt0TZLLcD7pzqf1_L_mZk-uo")
+OWNER_ID = int(os.getenv("OWNER_ID", "6127154811"))
 
 bot = Client(
     "deleteall-bot",
