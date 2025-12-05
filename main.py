@@ -3,7 +3,7 @@ from pyrogram.types import Message
 import asyncio
 import os
 
-API_ID = int(os.getenv("API_ID", "0"))
+API_ID = int(os.getenv("API_ID", "29544631"))
 API_HASH = os.getenv("API_HASH", "")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 OWNER_ID = int(os.getenv("OWNER_ID", "0"))
